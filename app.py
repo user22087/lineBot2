@@ -27,8 +27,10 @@ def callback():
          sendText(user,'ว่าไง')
     elif (userText == 'ทำไรอยู่') :
          sendText(user,'เล่นเกม')
-    elif (userText == 'ฟ้องพี่เจคเเน่') :
+    elif (userText == 'ฟ้องพี่เจคแน่') :
          sendText(user,'หยุดเลย!')
+    elif (userText == 'อายุเท่าไหร่แล้ว') :
+         sendText(user,'23')
     elif (userText == 'ชื่ออะไร') :
          sendText(user,'แฮริสันออสเตอร์ฟิลด์')
     else :
