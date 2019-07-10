@@ -27,6 +27,8 @@ def callback():
          sendText(user,'ดีจ้าาา')
     elif (userText == 'ทำไรอยู่') :
          sendText(user,'นอน')
+    elif (userText == 'ชื่ออะไร') :
+         sendText(user,'แฮริสันออสเตอร์ฟิลด์')
     else :
          sendText(user,'ฉันไม่เข้าจ่าย')
     
