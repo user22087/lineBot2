@@ -31,6 +31,10 @@ def callback():
          sendText(user,'หยุดเลย!')
     elif (userText == 'อายุเท่าไหร่แล้ว') :
          sendText(user,'23')
+    elif (userText == 'ชื่อไรนะ') :
+         sendText(user,'แฮรริสัน')
+    elif (userText == 'พูดอีกทีได้ป่ะ') :
+         sendText(user,'-*-')
     elif (userText == 'ชื่ออะไร') :
          sendText(user,'แฮริสันออสเตอร์ฟิลด์')
     else :
